@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".ui.dashboard.DashboardFragment">
+
+    <EditText
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="93dp"
+        android:gravity="center|end"
+        android:text="Nouvelle Position"
+        android:textColor="@color/design_default_color_secondary_variant"
+        android:textSize="48sp" />
+
+    <TextView
+        android:id="@+id/ednomDash"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:text="Nom"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/ednum_dash"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:text="Numero"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/edlong_dash"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:text="Longitude"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/edlat_dash"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:text="Latitude"
+        android:textSize="24sp" />
+
+    <Button
+
+        android:id="@+id/btnenvoie_dash"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button" />
+</LinearLayout>
